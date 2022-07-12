@@ -1,0 +1,76 @@
+* {
+  font-family: Trebuchet MS, sans-serif;
+}
+
+.content {
+  padding-top: 45px;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+h1 {
+  background-color: #fff;
+  position: fixed;
+  text-align: center;
+  color: gray;
+  font-size: 36px;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  border: 1px solid #000;
+  margin: 0;
+  z-index: 100;
+  border-radius: 10px;
+}
+
+h1::before, h1::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;  
+  top: 6px;
+}
+
+h1::before {
+  left: 10px;
+}
+
+h1::after {
+  right: 10px;
+}
+
+.text {
+  text-align: justify;
+  color: rgb(245, 190, 41);
+  padding: 0 15%;
+  line-height: 1.5em;
+}
+
+.photo {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin: 15px auto 0;
+  display: block;
+}
+
+.end {
+  margin-top: 15px;
+}
+
+p {
+  margin: 0;
+}
+
+.text.end a:hover {
+  color:rgb(145, 28, 73);
+}
+
+
+
+
