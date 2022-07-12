@@ -71,6 +71,20 @@ p {
   color:rgb(145, 28, 73);
 }
 
+@media screen and (max-width: 490px) {
+  .content {
+    width: 90%;
+  }
+
+  .text {
+    padding: 5%;
+  }
+
+  .photo {
+    width: 80%;
+  }
+}
+
 
 
 
